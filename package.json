@@ -1,0 +1,17 @@
+{
+  "name": "studentcopilot-api",
+  "version": "1.0.0",
+  "description": "Student Copilot API",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Building...'",
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "@netlify/functions": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

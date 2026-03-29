@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew build:*)",
+      "Bash(netlify auth:logout)",
+      "Bash(netlify help:*)",
+      "Bash(NETLIFY_AUTH_TOKEN=\"nfp_5usdLEQRR2VPRQxvoVKBdNTAXe831hKe6e0e\" netlify sites:create --name \"studyplanner\")",
+      "Bash(NETLIFY_AUTH_TOKEN=\"nfp_5usdLEQRR2VPRQxvoVKBdNTAXe831hKe6e0e\" netlify sites:create --name \"studyplanner\" --no-prompt)",
+      "Bash(NETLIFY_AUTH_TOKEN=\"nfp_5usdLEQRR2VPRQxvoVKBdNTAXe831hKe6e0e\" netlify api --list)",
+      "Bash(NETLIFY_AUTH_TOKEN=\"nfp_5usdLEQRR2VPRQxvoVKBdNTAXe831hKe6e0e\" netlify api createSite --data '{\"\"name\"\":\"\"studyplanner\"\"}')",
+      "Bash(NETLIFY_AUTH_TOKEN=\"nfp_5usdLEQRR2VPRQxvoVKBdNTAXe831hKe6e0e\" netlify api updateSite --data '{\"\"custom_domain\"\":\"\"studyplanner.qybrrlabs.frica\"\"}' --site 7016a1fc-ee1a-4a3f-a123-b22cf46044e0)",
+      "Bash(curl -X PATCH -H \"Authorization: Bearer nfp_5usdLEQRR2VPRQxvoVKBdNTAXe831hKe6e0e\" -H \"Content-Type: application/json\" -d '{\"\"\"\"custom_domain\"\"\"\":\"\"\"\"studyplanner.qybrrlabs.frica\"\"\"\"}' https://api.netlify.com/api/v1/sites/7016a1fc-ee1a-4a3f-a123-b22cf46044e0)",
+      "Bash(\"C:\\\\Users\\\\My pc\\\\AndroidStudioProjects\\\\StudentCopilot\\\\.netlify\\\\state.json\")"
+    ]
+  }
+}

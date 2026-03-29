@@ -1,0 +1,40 @@
+# Gradle files
+.gradle/
+build/
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Local configuration file
+local.properties
+
+# Android Studio
+.idea/
+.DS_Store
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+
+# Node/Netlify
+node_modules/
+.cache/
+dist/
+.env
+.env.local
+
+# Build outputs
+app/build/
+out/
+
+# IDE
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+Thumbs.db
+.DS_Store
